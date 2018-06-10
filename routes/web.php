@@ -17,3 +17,5 @@ Route::get('/', function () {
 
 
 Route::put('/sanitize','RequestSanitizedController@sanitize');
+Route::post('/sanitize','RequestSanitizedController@sanitize');
+Route::get('/sanitize','RequestSanitizedController@sanitize');
